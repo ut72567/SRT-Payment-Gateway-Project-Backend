@@ -1,22 +1,18 @@
 {
   "name": "payment-auto-verifier",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "SRT Payment Gateway Backend",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamyordan/payment-auto-verifier.git"
+    "url": "git+https://github.com/ut72567/SRT-Payment-Gateway-Project-Backend.git"
   },
   "author": "Adam Jordan",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/adamyordan/payment-auto-verifier/issues"
-  },
-  "homepage": "https://github.com/adamyordan/payment-auto-verifier#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
